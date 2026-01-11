@@ -1,0 +1,13 @@
+number =  {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+totalsum = 0
+
+for num in number:
+    totalsum = totalsum + num 
+
+average = totalsum / len(number)
+print (average)
+
+
+
+
