@@ -6,3 +6,6 @@ phone_book ={
 }
 phone_number = phone_book["Jane"]
 print("Jane's phone number is: " + phone_number)
+#adding a new contact
+phone_book["Alice"] = "111-222-3333"
+print(phone_book)
